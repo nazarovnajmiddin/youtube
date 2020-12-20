@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube_clone</title>
+  <link rel="stylesheet" href="css/font-awesome/all.min.css">
+  <link rel="stylesheet" href="node_modules/tiny-slider/dist/tiny-slider.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="fixed__nav">
+        <div class="fixed__nav-search">
+          <button class="bars" type="button">
+            <i class="fas fa-bars bars__icon"></i>
+          </button>
+          <button class="youtube" type="button">
+            <i class="fab fa-youtube"></i>
+            <span>YouTube</span>
+          </button>
+          <div class="search__box">
+            <input class="search__txt" type="text" placeholder="Search">
+            <a href="#" class="search__link"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+        <div class="fixed__nav-sign-up">
+          <button type="button"><img src="img/fixed__nav-icons/video_icon.png" alt="video-icon"></button>
+          <button type="button"><img src="img/fixed__nav-icons/Combined Shape.png" alt="Combined-icon"></button>
+          <button class="notification__btn" type="button">
+            <img src="img/fixed__nav-icons/ui-11.png" alt="notification-icon">
+            <div class="oval">
+              <span>3</span>
+            </div>
+          </button>
+          <button type="button"><img src="img/fixed__nav-icons/Userpic.png" alt="user"></button>
+        </div>
+      </div>
+      <div class="left__modal">
+        <ul class="left__modal-menu-top">
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/home.png" alt="home-icon">
+              Home
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/trending.png" alt="trending-icon">Trending
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/subscriptions.png" alt="subscriptions-icon">Subscriptions
+            </a>
+          </li>
+        </ul>
+        <ul class="left__modal-menu-center">
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/library.png" alt="library-icon">
+              Library
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/history.png" alt="history-icon">History
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/watch-later.png" alt="watching-icon">Watch later
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/star.png" alt="star-icon">
+              Favourites
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/like.png" alt="like-icon">Liked videos
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/music.png" alt="music-icon">Music
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/games.png" alt="games-icon">Games
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/bottom-icon.png" alt="bottom-icon">Show more
+            </a>
+          </li>
+        </ul>
+        <ul class="left__modal-menu-bottom">
+          <h3>Subscriptions</h3>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/avatar_1.png" alt="avatar-icon">Gussie Singleton
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/avatar_2.png" alt="avatar-icon">Nora Francis
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/avatar_3.png" alt="avatar-icon">Belle Briggs
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/avatar_3.png" alt="avatar-icon">Eunice Cortez
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/avatar_5.png" alt="avatar-icon">Emma Hanson
+            </a>
+          </li>
+          <li class="left__modal-menu-item">
+            <a class="left__modal-menu-link" href="#">
+              <img src="img/left__modal-icons/avatar_6.png" alt="avatar-icon">Leah Berry
+            </a>
+          </li>
+        </ul>
+        <div class="left__modal-footer">
+          <a class="left__modal-menu-link" href="#">
+            <img src="img/left__modal-icons/settings.png" alt="settings-icon">
+            Settings
+          </a>
+        </div>
+      </div>
+      <div class="yt__body">
+       <div class="carousel__top">
+        <div class="carousel__top-item">
+          <div class="relative">
+            <img src="img/yt__body-img/Cover.png" alt="img">
+            <div class="time absolute">8:00</div>
+          </div>
+          <div class="carousel__top-item-title">
+            <h3>Selecting The Right Hotel</h3>
+            <div class="carousel__top-item-text">
+              <p>123k views  ·  1 months ago</p>
+              <p>Dollie Blair</p>
+            </div>
+          </div>
+        </div>
+         <div class="carousel__top-item">
+           <div class="relative">
+             <img src="img/yt__body-img/Cover.png" alt="img">
+             <div class="time absolute">8:00</div>
+           </div>
+           <div class="carousel__top-item-title">
+             <h3>Selecting The Right Hotel</h3>
+             <div class="carousel__top-item-text">
+               <p>123k views  ·  1 months ago</p>
+               <p>Dollie Blair</p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel__top-item">
+           <div class="relative">
+             <img src="img/yt__body-img/Cover.png" alt="img">
+             <div class="time absolute">8:00</div>
+           </div>
+           <div class="carousel__top-item-title">
+             <h3>Selecting The Right Hotel</h3>
+             <div class="carousel__top-item-text">
+               <p>123k views  ·  1 months ago</p>
+               <p>Dollie Blair</p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel__top-item">
+           <div class="relative">
+             <img src="img/yt__body-img/Cover.png" alt="img">
+             <div class="time absolute">8:00</div>
+           </div>
+           <div class="carousel__top-item-title">
+             <h3>Selecting The Right Hotel</h3>
+             <div class="carousel__top-item-text">
+               <p>123k views  ·  1 months ago</p>
+               <p>Dollie Blair</p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel__top-item">
+           <div class="relative">
+             <img src="img/yt__body-img/Cover.png" alt="img">
+             <div class="time absolute">8:00</div>
+           </div>
+           <div class="carousel__top-item-title">
+             <h3>Selecting The Right Hotel</h3>
+             <div class="carousel__top-item-text">
+               <p>123k views  ·  1 months ago</p>
+               <p>Dollie Blair</p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel__top-item">
+           <div class="relative">
+             <img src="img/yt__body-img/Cover.png" alt="img">
+             <div class="time absolute">8:00</div>
+           </div>
+           <div class="carousel__top-item-title">
+             <h3>Selecting The Right Hotel</h3>
+             <div class="carousel__top-item-text">
+               <p>123k views  ·  1 months ago</p>
+               <p>Dollie Blair</p>
+             </div>
+           </div>
+         </div>
+         <div class="carousel__top-item">
+           <div class="relative">
+             <img src="img/yt__body-img/Cover.png" alt="img">
+             <div class="time absolute">8:00</div>
+           </div>
+           <div class="carousel__top-item-title">
+             <h3>Selecting The Right Hotel</h3>
+             <div class="carousel__top-item-text">
+               <p>123k views  ·  1 months ago</p>
+               <p>Dollie Blair</p>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

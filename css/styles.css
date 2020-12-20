@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	border: none;
+	background-color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.fixed__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.fixed__nav-search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+}
+.bars {
+	
+	margin-right: 25px;
+}
+.bars i {
+	font-size: 20px;
+}
+.youtube {
+	margin-right: 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+}
+.youtube i {
+	font-size: 36px;
+	color: #FF0000;
+	margin-right: 5px;
+}
+.search__box {
+	width: 600px;
+	padding: 0 20px;
+	background-color: #EBEBEB;
+	border-radius: 22px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search__txt {
+	border: none;
+	background-color: inherit;
+	outline: none;
+	width: 100%;
+	padding: 10px 0;
+}
+.search__link {
+	color: #000;
+}
+.fixed__nav-sign-up {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.notification__btn {
+	position: relative;
+}
+.oval {
+	width: 18px;	
+	height: 18px;
+	border-radius: 50%;
+	background-color: #FF0000;
+	position: absolute;
+	bottom: 18px;
+	left: 14px;
+}
+.oval span {
+	color: #fff;
+	line-height: 18px;
+}
+.left__modal {
+	/*display: none;*/
+	width: 160px;
+}
+.show {
+	display: block;
+}
+.left__modal-menu-top {
+	margin-bottom: 50px;
+}
+.left__modal-menu-item {
+	margin-bottom: 20px;
+}
+.left__modal-menu-link {
+	color: #898989;
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+}
+.left__modal-menu-link:hover {
+	background-color: rgb(230, 230, 250);
+	color: rgb(100, 90, 90);
+}
+.left__modal-menu-link img {
+	margin-right: 15px;
+}
+.left__modal-menu-center {
+	margin-bottom: 60px;
+}
+.left__modal-footer .left__modal-menu-link {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+
+.relative {
+	position: relative;
+	width: 250px;
+}
+.absolute {
+	position: absolute;
+	right: 12px;
+	bottom: 13px;
+}
+.time {
+	background-color: #898989;
+	border-radius: 12px;
+	width: 45px;
+	text-align: center;
+	padding: 4px 0;
+	color: #fff;
+}
+.carousel__top {
+	display: flex;
+}
+..carousel__top-item-title {
+	width: 250px;
+}
+.carousel__top-item-title h3 {
+	font-weight: bold;
+	line-height: 20px;
+	color: #19202C;
+	margin: 10px 0 4px 0;
+}
+.carousel__top-item-text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 250px;
+}
+.carousel__top-item-text p {
+	font-size: 13px;
+	line-height: 16px;
+	color: #C2C2C2;
+	margin: 0;
+}
